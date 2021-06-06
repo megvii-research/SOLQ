@@ -14,8 +14,8 @@ from .fast_solq import build as build_fast_solq
 
 def build_model(args):
     if args.meta_arch == 'solq':
-        return build_aux_vecinst(args)
+        return build_solq(args)
     if args.meta_arch == 'fast_solq':
-        return build_aux_vecinst_v2(args)
+        return build_fast_solq(args)
     return build(args)
 
