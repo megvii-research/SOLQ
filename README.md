@@ -15,11 +15,11 @@ This repository is an official implementation of the paper [SOLQ: Segmenting Obj
 
 ## Main Results
 
-|  **Method**  | **Backbone** | **Dataset**  |  **Box AP**  |  **Mask AP**  |  
-|:------:|:------:|:------:|:------:|:------:| 
-| SOLQ | R50 | test-dev | 47.8 | 39.7 |
-| SOLQ | R101 | test-dev | 48.7 | 40.9 |
-| SOLQ | Swin-L | test-dev | 55.4 | 45.9 |
+|  **Method**  | **Backbone** | **Dataset**  |  **Box AP**  |  **Mask AP**  |  **Model**  |
+|:------:|:------:|:------:|:------:|:------:| :------:| 
+| SOLQ | R50 | test-dev | 47.8 | 39.7 | [google](https://drive.google.com/file/d/1D43QroYz2CH3rHDVE54tlByq6dSbmXJK/view?usp=sharing) |
+| SOLQ | R101 | test-dev | 48.7 | 40.9 | [google](https://drive.google.com/file/d/1hdHnNDeLP932ZueKEvm5o8T1MwwhP_wm/view?usp=sharing) |
+| SOLQ | Swin-L | test-dev | 55.4 | 45.9 | [google](https://drive.google.com/file/d/13Tjf2a81rPTRdtGIQr6y4t-HocoU_bM1/view?usp=sharing) |
 
 
 ## Installation
