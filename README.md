@@ -1,6 +1,6 @@
 # SOLQ: Segmenting Objects by Learning Queries
 
-This repository is an official implementation of the paper [SOLQ: Segmenting Objects by Learning Queries](https://arxiv.org/pdf/2105.03247.pdf).
+This repository is an official implementation of the paper [SOLQ: Segmenting Objects by Learning Queries](https://arxiv.org/pdf/2106.02351.pdf).
 
 ## Introduction
 
@@ -105,7 +105,7 @@ If you find SOLQ useful in your research, please consider citing:
 @article{dong2021solq,
   title={SOLQ: Segmenting Objects by Learning Queries},
   author={Bin Dong, Fangao Zeng, Tiancai Wang, Xiangyu Zhang, Yichen Wei},
-  journal={arXiv preprint arXiv:2105.03247},
+  journal={arXiv preprint arXiv:2106.02351},
   year={2021}
 }
 ```
