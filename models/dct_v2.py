@@ -2,7 +2,7 @@
 # Copyright (c) 2021 megvii-model. All Rights Reserved.
 # ------------------------------------------------------------------------
 # Modified from DCT-Mask (https://github.com/aliyun/DCT-Mask)
-# Copyright (c) 2020 SenseTime. All Rights Reserved.
+# Copyright (c) 2021 Alibaba Cloud. All Rights Reserved.
 # ------------------------------------------------------------------------
 
 import numpy as np
