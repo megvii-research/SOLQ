@@ -115,7 +115,6 @@ python visual.py \
        --vector_hidden_dim 1024 \
        --vector_loss_coef 3 \
        --output_dir ${EXP_DIR} \
-       --hidden_dim 384 \
        --resume ${EXP_DIR}/solq_r50_final.pth \
        --eval    
 ```
