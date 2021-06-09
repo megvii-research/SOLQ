@@ -99,6 +99,27 @@ sh configs/r50_solq_submit.sh
 
 ```
 
+#### Visualization on COCO 2017 val dataset
+
+You can visualize on image as follows:
+
+```bash
+EXP_DIR=/path/to/checkpoint
+python visual.py \
+       --meta_arch solq \
+       --backbone resnet50 \
+       --with_vector \
+       --with_box_refine \
+       --masks \
+       --batch_size 2 \
+       --vector_hidden_dim 1024 \
+       --vector_loss_coef 3 \
+       --output_dir ${EXP_DIR} \
+       --hidden_dim 384 \
+       --resume ${EXP_DIR}/solq_r50_final.pth \
+       --eval    
+```
+
 ## Citing SOLQ
 If you find SOLQ useful in your research, please consider citing:
 ```bibtex
