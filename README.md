@@ -124,7 +124,7 @@ If you find SOLQ useful in your research, please consider citing:
 ```bibtex
 @article{dong2021solq,
   title={SOLQ: Segmenting Objects by Learning Queries},
-  author={Bin Dong, Fangao Zeng, Tiancai Wang, Xiangyu Zhang, Yichen Wei},
+  author={Dong, Bin and Zeng, Fangao and Wang, Tiancai and Zhang, Xiangyu and Wei, Yichen},
   journal={arXiv preprint arXiv:2106.02351},
   year={2021}
 }
