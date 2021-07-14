@@ -1,5 +1,14 @@
 # SOLQ: Segmenting Objects by Learning Queries
 
+</div>
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/solq-segmenting-objects-by-learning-queries/instance-segmentation-on-coco-minival)](https://paperswithcode.com/sota/instance-segmentation-on-coco-minival?p=solq-segmenting-objects-by-learning-queries)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/solq-segmenting-objects-by-learning-queries/instance-segmentation-on-coco)](https://paperswithcode.com/sota/instance-segmentation-on-coco?p=solq-segmenting-objects-by-learning-queries)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/solq-segmenting-objects-by-learning-queries/object-detection-on-coco-minival)](https://paperswithcode.com/sota/object-detection-on-coco-minival?p=solq-segmenting-objects-by-learning-queries)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/solq-segmenting-objects-by-learning-queries/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=solq-segmenting-objects-by-learning-queries)
+
+</div>
+
 This repository is an official implementation of the paper [SOLQ: Segmenting Objects by Learning Queries](https://arxiv.org/pdf/2106.02351.pdf).
 
 ## Introduction
