@@ -13,6 +13,9 @@ This repository is an official implementation of the paper [SOLQ: Segmenting Obj
 **Abstract.** In this paper, we propose an end-to-end framework for instance segmentation. Based on the recently introduced DETR, our method, termed SOLQ, segments objects by learning unified queries. In SOLQ, each query represents one object and has multiple representations: class, location and mask. The object queries learned perform classification, box regression and mask encoding simultaneously in an unified vector form. During training phase, the mask vectors encoded are supervised by the compression coding of raw spatial masks. In inference time, mask vectors produced can be directly transformed to spatial masks by the inverse process of compression coding. Experimental results show that SOLQ can achieve state-of-the-art performance, surpassing most of existing approaches. Moreover, the joint learning of unified query representation can greatly improve the detection performance of original DETR. We hope our SOLQ can serve as a strong baseline for the Transformer-based instance segmentation.
 
 
+## Updates
+- (14/07/2021) Higher performance (Box AP=56.5, Mask AP=46.7) is reported by training with long side 1536 on Swin-L backbone, instead of long side 1333. 
+
 ## Main Results
 
 |  **Method**  | **Backbone** | **Dataset**  |  **Box AP**  |  **Mask AP**  |  **Model**  |
@@ -20,6 +23,7 @@ This repository is an official implementation of the paper [SOLQ: Segmenting Obj
 | SOLQ | R50 | test-dev | 47.8 | 39.7 | [google](https://drive.google.com/file/d/1D43QroYz2CH3rHDVE54tlByq6dSbmXJK/view?usp=sharing) |
 | SOLQ | R101 | test-dev | 48.7 | 40.9 | [google](https://drive.google.com/file/d/1hdHnNDeLP932ZueKEvm5o8T1MwwhP_wm/view?usp=sharing) |
 | SOLQ | Swin-L | test-dev | 55.4 | 45.9 | [google](https://drive.google.com/file/d/13Tjf2a81rPTRdtGIQr6y4t-HocoU_bM1/view?usp=sharing) |
+| SOLQ | Swin-L & 1536 | test-dev | 56.5 | 46.7 | [google](https://drive.google.com/file/d/17g8NzFUwdbic9e24tS6I1bb4klas_g8c/view?usp=sharing) |
 
 
 ## Installation
