@@ -11,11 +11,14 @@
 from .deformable_detr import build
 from .solq import build as build_solq
 from .fast_solq import build as build_fast_solq
+from .solq_pca import build as build_solq_pca
 
 def build_model(args):
     if args.meta_arch == 'solq':
         return build_solq(args)
     if args.meta_arch == 'fast_solq':
         return build_fast_solq(args)
+    if args.meta_arch == 'solq_pca':
+        return build_solq_pca(args)
     return build(args)
 
