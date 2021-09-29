@@ -9,7 +9,7 @@
 
 </div>
 
-This repository is an official implementation of the paper [SOLQ: Segmenting Objects by Learning Queries](https://arxiv.org/pdf/2106.02351.pdf).
+This repository is an official implementation of the NeurIPS 2021 paper [SOLQ: Segmenting Objects by Learning Queries](https://arxiv.org/pdf/2106.02351.pdf).
 
 ## Introduction
 
@@ -23,6 +23,7 @@ This repository is an official implementation of the paper [SOLQ: Segmenting Obj
 
 
 ## Updates
+- (29/09/2021) Our SOLQ has been accepted by NeurIPS 2021.
 - (14/07/2021) Higher performance (Box AP=56.5, Mask AP=46.7) is reported by training with long side 1536 on Swin-L backbone, instead of long side 1333. 
 
 ## Main Results
@@ -138,7 +139,7 @@ If you find SOLQ useful in your research, please consider citing:
 @article{dong2021solq,
   title={SOLQ: Segmenting Objects by Learning Queries},
   author={Dong, Bin and Zeng, Fangao and Wang, Tiancai and Zhang, Xiangyu and Wei, Yichen},
-  journal={arXiv preprint arXiv:2106.02351},
+  journal={NeurIPS},
   year={2021}
 }
 ```
