@@ -23,6 +23,7 @@ This repository is an official implementation of the NeurIPS 2021 paper [SOLQ: S
 
 
 ## Updates
+- (12/10/2021) Release D-DETR+SQR log.txt in [SQR](https://github.com/megvii-research/SOLQ/blob/main/docs/sqr_baseline_r50_log.txt).
 - (29/09/2021) Our SOLQ has been accepted by NeurIPS 2021.
 - (14/07/2021) Higher performance (Box AP=56.5, Mask AP=46.7) is reported by training with long side 1536 on Swin-L backbone, instead of long side 1333. 
 
