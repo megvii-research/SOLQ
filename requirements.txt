@@ -2,3 +2,5 @@ pycocotools
 tqdm
 cython
 scipy
+loguru
+torch-dct
